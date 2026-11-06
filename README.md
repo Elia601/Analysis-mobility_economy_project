@@ -7,12 +7,16 @@ El proyecto integra datos de tráfico urbano de TomTom con indicadores económic
 ## 📂 Contenido del repositorio
 - `mobility_economy_project_student.ipynb` → Notebook principal con la exploración, limpieza, transformación, agregación, integración, visualización y conclusiones del proyecto.
 
-> Nota: Los datasets utilizados dentro del notebook son `tomtom_traffic.csv` (TomTom) y `oecd_city_economy.csv` (OECD). El dataset final generado es `ladb_mobility_economy_2024_clean.csv`. Estos son los nombres de los datasets trabajados en el análisis, no son archivos separados en este repositorio.
+## 📦 Datasets utilizados
 
-## ▶️ Cómo abrir el notebook en Google Colab
-1. Descarga el archivo `mobility_economy_project_student.ipynb`
-2. Súbelo a Google Colab
-3. Ejecuta las celdas en orden
+Los datasets ya vienen cargados en el entorno de trabajo y se leen así en el notebook:
+
+- `/datasets/tomtom_traffic.csv` → Datos de movilidad y congestión urbana de TomTom. Se guarda en la variable `traffic`
+- `/datasets/oecd_city_economy.csv` → Indicadores económicos y sociales de OECD. Se guarda en la variable `eco`
+
+El dataset final generado es `ladb_mobility_economy_2024_clean.csv`.
+
+Estos datasets no están subidos a este repositorio porque ya vienen en el entorno de `/datasets/`. Solo tienes que correr el notebook y ya los lee.
 
 ## 📘 Cómo reproducir el análisis
 1. Carga los datasets `tomtom_traffic.csv` y `oecd_city_economy.csv`
